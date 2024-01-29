@@ -41,6 +41,6 @@
 
 ![Logic analyzer data and Radio decoding comparison](Images/Comparison.png)
 
-![Short demo](Images/BLE_DTM.mp4)
+[![Short Youtube demo video](https://img.youtube.com/vi/0uCr9_R5GzE/0.jpg)](https://www.youtube.com/watch?v=0uCr9_R5GzE)
 
 ### Would you like to get yourself involved ? You are in luck !! There is absolutely no hardware required for this experimentation as all the RAW data have already been recorded. Install GnuRadioCompanion and try the various recorded RAW files to get different decoded hex output files.
