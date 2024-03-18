@@ -1,17 +1,14 @@
 # Bluetooth Low Energy DTM decoder
 ---
-### Have you ever wondered about software defined radio ? SDR ?
-
-### Would you like to create a DIY  version of this on your table top ?
+### Are you intrigued about this machine and the waveform it displays ?
 
 ![BLE DTM on CBT ](Images/BLE.jpg)
 ---
-### Let's have a short look into how that is possible.
+### Its a Bluetooth Low Energy analyzer called CBT. In this repository, I have included all the files that I created to decode a BLE based DTM(Direct Test Mode) packet.
 
 ### Here is my hardware setup.
 ---
 ![Software defined radio attached with DUT using RF-Link](Images/Hardware_Setup.jpg)
-
 
 ### There are different groups of files included in this repository.
 ---
@@ -24,7 +21,7 @@
 
 ---
 
-![The Gnuradio companion flow diagram](Images/GnuRadio_Flow.png)
+![The GNU radio companion flow diagram](Images/GnuRadio_Flow.png)
 
 ---
 
@@ -35,14 +32,18 @@
 ![Resulting Hex data file from analysis](Images/Packet_decoding.png)
 
 ---
-### The Preamble_OtherInformation text file contatins various different data such as Preamble, Access Address, Header data, Data packets, CRC information used for comparison.
+### The Preamble_OtherInformation text file contains various different data such as Preamble, Access Address, Header data, Data packets, CRC information used for comparison.
 
 ---
 
 ![Logic analyzer data and Radio decoding comparison](Images/Comparison.png)
 
-## Youtube video presentation - click on the image below:
+## Youtube video presentation - Part 1 - Pre-requisite know-how - click on the image below:
 
-[![Short Youtube demo video](https://img.youtube.com/vi/0uCr9_R5GzE/0.jpg)](https://www.youtube.com/watch?v=0uCr9_R5GzE)
+[![Part - 1](https://img.youtube.com/vi/K1_faNC7W3E/0.jpg)](https://www.youtube.com/watch?v=K1_faNC7W3E)
 
-### Would you like to get yourself involved ? You are in luck !! There is absolutely no hardware required for this experimentation as all the RAW data have already been recorded. Install GnuRadioCompanion and try the various recorded RAW files to get different decoded hex output files.
+## Youtube video presentation - Part 2 - Hands-on demo - click on the image below:
+
+[![Part - 2](https://img.youtube.com/vi/fmAM97e1No0/0.jpg)](https://www.youtube.com/watch?v=fmAM97e1No0)
+
+## There is  no hardware required for this experimentation as all the RAW data have already been recorded. Install GnuRadioCompanion and try the various recorded RAW files to get different decoded hex output files.
